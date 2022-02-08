@@ -74,10 +74,10 @@
 
     {{-- End Main Image --}}
 
-    <div class="container-fluid px-5 my-6">
+    <div class=" px-5 my-6">
         <div class="card mt-n8">
-            <div class="container">
-                <div class="row mb-5">
+            <div>
+                <div class="row">
                     <div class="col-lg-4 col-md-6 col-7 mx-auto text-center">
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                                         {{-- Form --}}
                                         <form action="{{route('tamu.store')}}" method="post">
                                             @csrf
-                                            <div style="padding: 50px">
+                                            <div style="padding: 20px">
 
                                                 <div class="input-group input-group-outline">
                                                     <label class="form-label">Nama</label>
@@ -150,7 +150,7 @@
                                             </div>
 
                                             {{-- Adab --}}
-                                            <div class="row mt-5" style="padding: 0 50px 0 50px" id="adab">
+                                            <div class="row mt-5" style="padding: 0 30px 0 30px" id="adab">
                                                 <div class="col-md-6 mx-auto text-center">
                                                     <h2>Peraturan & Adab Berkunjung</h2>
                                                     <p>Sebelum memasuki area pesantren harap membaca dan memahami adab dan
@@ -257,50 +257,11 @@
         <footer class="footer py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 mb-4 mx-auto text-center">
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                            Company
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                            About Us
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                            Team
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                            Products
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                            Blog
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-5 me-3 mb-sm-0 mb-2">
-                            Pricing
-                        </a>
-                    </div>
-                    <div class="col-lg-8 mx-auto text-center mb-4 mt-2">
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                            <span class="text-lg fab fa-dribbble"></span>
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                            <span class="text-lg fab fa-twitter"></span>
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                            <span class="text-lg fab fa-instagram"></span>
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                            <span class="text-lg fab fa-pinterest"></span>
-                        </a>
-                        <a href="javascript:;" target="_blank" class="text-secondary me-xl-4 me-4">
-                            <span class="text-lg fab fa-github"></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
                     <div class="col-8 mx-auto text-center mt-1">
                         <p class="mb-0 text-secondary">
                             <script>
                                 document.write(new Date().getFullYear())
-                            </script> Material by Creative Tim.
+                            </script> IDN Boarding School
                         </p>
                     </div>
                 </div>
@@ -342,6 +303,8 @@
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script src="../../assets/js/material-dashboard.min.js?v=3.0.2"></script>
 
-</body>
 
+
+</body>
+@include('sweetalert::alert')
 </html>

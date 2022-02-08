@@ -4,9 +4,7 @@
     <div class="sidenav-header">
         <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none"
             aria-hidden="true" id="iconSidenav"></i>
-        <a class="navbar-brand m-0"
-            href=" https://demos.creative-tim.com/material-dashboard-pro/pages/dashboards/analytics.html "
-            target="_blank">
+        <a class="navbar-brand m-0" href="/">
             <img src="../../assets/img/logo-ct.png" class="navbar-brand-img h-100" alt="main_logo">
             <span class="ms-1 font-weight-bold text-white">Tamu</span>
         </a>
@@ -22,7 +20,7 @@
             </li>
             <hr class="horizontal light mt-0">
             <li class="nav-item">
-                <a class="nav-link text-white" href="/home">
+                <a class="nav-link text-white" href="/">
                     <i class="material-icons-round opacity-10">dashboard</i>
                     <span class="nav-link-text ms-2 ps-1">Dashboards</span>
                 </a>
