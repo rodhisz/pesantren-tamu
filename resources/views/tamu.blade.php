@@ -99,36 +99,36 @@
                                             @csrf
                                             <div style="padding: 20px">
 
-                                                <div class="input-group input-group-outline">
-                                                    <label class="form-label">Nama</label>
-                                                    <input name="nama" type="text" class="form-control">
+                                                <div class="input-group input-group-static">
+                                                    <label>Nama</label>
+                                                    <input name="nama" type="text" class="form-control" placeholder="Masukkan Nama">
                                                 </div>
 
                                                 <div class="mt-4">
-                                                    <div class="input-group input-group-outline">
-                                                        <label class="form-label">Asal</label>
-                                                        <input name="asal" type="text" class="form-control">
+                                                    <div class="input-group input-group-static">
+                                                        <label>Asal</label>
+                                                        <input name="asal" type="text" class="form-control" placeholder="Masukkan Asal">
                                                     </div>
                                                 </div>
 
                                                 <div class="mt-4">
-                                                    <div class="input-group input-group-outline">
-                                                        <label class="form-label">Keperluan</label>
-                                                        <input name="keperluan" type="text" class="form-control">
+                                                    <div class="input-group input-group-static">
+                                                        <label>Keperluan</label>
+                                                        <input name="keperluan" type="text" class="form-control" placeholder="Masukkan Keperluan">
                                                     </div>
                                                 </div>
 
                                                 <div class="mt-4">
-                                                    <div class="input-group input-group-outline">
-                                                        <label class="form-label">Jumlah Tamu</label>
-                                                        <input name="jumlah_tamu" type="number" class="form-control">
+                                                    <div class="input-group input-group-static">
+                                                        <label>Jumlah Tamu</label>
+                                                        <input name="jumlah_tamu" type="number" class="form-control" placeholder="Masukkan Jumlah Tamu">
                                                     </div>
                                                 </div>
 
                                                 <div class="mt-4">
-                                                    <div class="input-group input-group-outline">
-                                                        <label class="form-label">Nomor Hp</label>
-                                                        <input name="nomor_hp" type="number" class="form-control">
+                                                    <div class="input-group input-group-static">
+                                                        <label>Nomor Hp</label>
+                                                        <input name="nomor_hp" type="number" class="form-control" placeholder="Masukkan Nomor Hp">
                                                     </div>
                                                 </div>
 
